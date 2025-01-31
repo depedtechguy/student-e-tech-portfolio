@@ -3,53 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | Graphic Designer | Creative Thinker</p>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Brief introduction about yourself, your background, and what you do.</p>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-        </ul>
-    </section>
+<header>
+    <h1>John Doe's Portfolio</h1>
+    <p>Senior High School Student</p>
+</header>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <article>
-            <h3>Job Title at Company Name</h3>
-            <p>Describe your job role and achievements here.</p>
-        </article>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <div class="profile">
+        <img src="profile.jpg" alt="John Doe" class="profile-img">
+        <p>Hello! I'm John Doe, a Senior High School student with a passion for technology, web development, and graphic design. I'm constantly learning and improving my skills.</p>
+    </div>
+</section>
 
-<section id="projects">
-    <h2>My Projects</h2>
+<section id="education">
+    <h2>Education</h2>
     <ul>
-        <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1 - Web App</a></li>
-        <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2 - Portfolio Website</a></li>
+        <li>Senior High School - Expected Graduation: 2026</li>
+        <li>XYZ High School, Grade 11 - Current Year</li>
+        <li>Subjects: Computer Science, Mathematics, English, and more</li>
     </ul>
 </section>
 
-<section id="photo">
-    <h2>My Work</h2>
-    <img src="profile-photo.jpg" alt="Your photo" width="200">
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Graphic Design (Photoshop, Canva)</li>
+        <li>Public Speaking</li>
+        <li>Team Collaboration</li>
+    </ul>
 </section>
 
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Website Design Project</strong> - Created a personal portfolio website using HTML and CSS.</li>
+        <li><strong>School Event Poster</strong> - Designed posters for school events using Photoshop.</li>
+        <li><strong>Math Tutor App</strong> - Developed a simple math practice app with basic JavaScript.</li>
+    </ul>
+</section>
 
-    <footer>
-        <p>Contact me at: <a href="mailto:email@example.com">email@example.com</a></p>
-    </footer>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>If you would like to get in touch with me, feel free to send a message below:</p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 John Doe</p>
+</footer>
+
 </body>
 </html>
+ 
