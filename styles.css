@@ -2,6 +2,13 @@
 body, h1, h2, p, ul, form {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Ensure the body and HTML elements don't exceed the viewport width */
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Body */
