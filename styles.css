@@ -17,7 +17,6 @@ body {
     background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
-    
 }
 
 /* Header */
@@ -50,8 +49,6 @@ section {
     background-color: #e0e0e0;
     width: 100%;  /* Ensure it takes up full width */
     padding: 20px;  /* Adds some space around the content */
-        border-radius: 8px;
-    
 }
 
 .profile {
@@ -62,7 +59,6 @@ section {
     width: 100%;  /* Ensure the profile takes up full width */
     text-align: left;  /* Makes text aligned properly */
     padding: 20px;  /* Adds padding inside the profile div */
- 
 }
 
 .profile-img {
@@ -74,8 +70,6 @@ section {
 
 .profile div {
     max-width: calc(100% - 170px);  /* Prevents text from overlapping */
-     padding: 20px;  /* Adds padding inside the profile div */
-  
 }
 
 .profile p {
