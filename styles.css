@@ -69,8 +69,8 @@ section {
 }
 
 .profile div {
-    max-width: calc(100% - 170px);  /* Prevents text from overlapping */
-        position: fixed;
+    max-width: calc(100% - 150px);  /* Prevents text from overlapping */
+  
    
     
 }
