@@ -46,7 +46,7 @@ section {
 
 .profile {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;  /* Ensure items wrap */
     width: 100%;  /* Ensure the profile takes up full width */
