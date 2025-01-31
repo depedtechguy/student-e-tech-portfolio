@@ -75,7 +75,7 @@ section {
 .profile div {
     max-width: calc(100% - 170px);  /* Prevents text from overlapping */
      padding: 20px;  /* Adds padding inside the profile div */
-    margin:20px;
+  
 }
 
 .profile p {
