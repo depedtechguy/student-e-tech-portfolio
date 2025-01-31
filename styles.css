@@ -17,6 +17,7 @@ body {
     background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
+    
 }
 
 /* Header */
@@ -49,6 +50,8 @@ section {
     background-color: #e0e0e0;
     width: 100%;  /* Ensure it takes up full width */
     padding: 20px;  /* Adds some space around the content */
+    margin: 20px;
+    
 }
 
 .profile {
