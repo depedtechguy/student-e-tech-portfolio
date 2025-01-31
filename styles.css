@@ -49,7 +49,7 @@ section {
     justify-content: flex-start;
     width: 100%;  /* Ensure the profile takes up full width */
     text-align: left;  /* Makes text aligned properly */
-    padding: 15px;  /* Adds padding inside the profile div */
+    padding: 20px;  /* Adds padding inside the profile div */
 }
 
 .profile-img {
