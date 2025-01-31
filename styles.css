@@ -51,6 +51,7 @@ section {
     width: 100%;  /* Ensure it takes up full width */
     padding: 20px;  /* Adds some space around the content */
     margin: 20px;
+       border-radius: 8px;
     
 }
 
